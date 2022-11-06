@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: monospace, sans-serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px;
+    box-shadow: 5px 5px 10px lightslategray;
+}
+.left-div{
+    position: relative;
+    padding: 15px 0px;
+    background-color: aqua;
+}
+.right-div{
+    position: relative;
+    background-color: bisque;
+}
+.profile-img{
+    margin: 0px auto;
+    height: 230px;
+    width: 200px;
+    border-radius: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.profile-section{
+    text-align: center;
+    padding: 15px;
+}
+hr{
+    width: 300px;
+    margin: 10px auto;
+    background-color: black;
+    border: 3px solid black;
+}
+.title{
+    color: black;
+    letter-spacing: 1px;
+    margin: 30px;
+    font-size: 30px;
+}
+.educational-info, .higher,.secondary{
+    margin: 30px;
+}
+.contact-information{
+    position: relative;
+}
+.contact-information .contact{
+    font-size: 20px;
+}
+.contact-information ul li{
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+.contact-information ul li .icon{
+    font-size: 20px;
+    color: rgb(0, 94, 255);
+    width: 30px;
+}
+.right-div{
+    margin:40px 30px
+}
+.padding-all{
+    padding-top: 15px;
+}
+.computer-skills{
+    margin: 20px 0px;
+}
+.personal-info{
+    margin: 20px 0px;
+}
+.present-address{
+    margin: 20px 0px;
+    padding-top: 15px;
+}
+.permanent-address{
+    margin: 20px 0px;
+    padding-top: 15px
+}
